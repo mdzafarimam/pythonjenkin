@@ -15,7 +15,11 @@ class A:
         
     def display_from_b(self):
         print('Display message B')
+    
+    def display_from_c(self):
+        print('Display message C')
 
 a = A()
 a.display_from_a()
 a.display_from_b()
+a.display_from_c()
