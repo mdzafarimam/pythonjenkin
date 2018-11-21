@@ -12,6 +12,10 @@ class A:
     
     def display_from_a(self):
         print('Display message A')
+        
+    def display_from_b(self):
+        print('Display message B')
 
 a = A()
 a.display_from_a()
+a.display_from_b()
